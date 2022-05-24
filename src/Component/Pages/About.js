@@ -1,0 +1,70 @@
+import React from 'react'
+
+ const About = () => {
+   
+       
+  return (
+    <div className="aboutus-section ">
+            <div className="container">
+                <div className="row">
+                    <div className="col-md-3 col-sm-6 col-xs-12">
+                        <div className="aboutus">
+                            <h2 className="aboutus-title">About Us</h2>
+                            <p className="aboutus-text">Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in.</p>
+                            <p className="aboutus-text">This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem</p>
+                            <a className="aboutus-more" href="#">read more</a>
+                        </div>
+                    </div>
+               
+                    <div className="col-md-5 col-sm-6 col-xs-12">
+                        <div className="feature">
+                            <div className="feature-box">
+                                <div className="clearfix">
+                                    <div className="iconset">
+                                        {/* <span className="glyphicon glyphicon-cog icon"></span> */}
+                                    </div>
+                                    <div className="feature-content">
+                                        <h4>Work with heart</h4>
+                                        <p>Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="feature-box">
+                                <div className="clearfix">
+                                    <div className="iconset">
+                                    <i className="glyphicon"></i>
+                                        {/* <span className="fa fa-facebook"></span> */}
+                                    </div>
+                                    <div className="feature-content">
+                                        <h4>Reliable services</h4>
+                                        <p>Donec vitae sapien ut libero venenatis faucibu. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="feature-box">
+                                <div className="clearfix">
+                                    <div className="iconset">
+                                        {/* <span className="glyphicon glyphicon-cog icon"></span> */}
+                                    </div>
+                                    <div className="feature-content">
+                                        <h4>Great support</h4>
+                                        <p>Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                     <div className="col-md-4 col-sm-6 col-xs-12">
+                         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15282225.79979123!2d73.7250245393691!3d20.750301298393563!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30635ff06b92b791%3A0xd78c4fa1854213a6!2sIndia!5e0!3m2!1sen!2sin!4v1587818542745!5m2!1sen!2sin" className='col-sm w-100' width="500" height="400" frameborder="0" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                    </div> 
+
+                </div>
+            </div>
+          
+
+        
+        </div>
+  )
+}
+export default About;
